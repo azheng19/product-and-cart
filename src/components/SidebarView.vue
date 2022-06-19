@@ -11,7 +11,7 @@
 
       <div class="cart-body">
         <table class="cart-table">
-          <thehead>
+          <thead>
             <tr>
               <th><span class="sr-only">Product Image</span></th>
               <th>Product</th>
@@ -20,7 +20,7 @@
               <th>Total</th>
               <th><span class="sr-only">Actions</span></th>
             </tr>
-          </thehead>
+          </thead>
           <tbody>
             <tr v-for="(quantity, key, i) in cart" :key="i">
               <td><i class="ico-font-carrot icofont-3x" /></td>
